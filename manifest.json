@@ -5,7 +5,7 @@
   "description": "特定のページに行くとアラートを表示する。",
   "content_scripts": [
     {
-      "matches": ["http://example.com/*"],
+      "matches": ["https://www.webassessor.com/wa.do?page=enterCatalog*"],
       "js": ["script.js"],
       "run_at": "document_start"
     }
